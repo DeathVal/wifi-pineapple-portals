@@ -1,0 +1,103 @@
+.form-signin {
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+    margin-bottom: 10px;
+}
+
+.form-signin .checkbox {
+    font-weight: normal;
+}
+
+.form-signin .form-control {
+    position: relative;
+    font-size: 16px;
+    height: auto;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.account-wall {
+    margin-top: 20px;
+    padding: 40px 0px 20px 0px;
+    background-color: #ffffff;
+}
+
+.login-title {
+    color: #e1001a;
+    font-size: 55px;
+    font-weight: 400;
+    display: block;
+}
+
+.profile-img {
+    width: 150px;
+    height: auto;
+    margin: 0 auto 10px;
+    display: block;
+    border-radius: 0;
+}
+
+.friends-text {
+    font-size: 18px;
+    font-weight: 400;
+    display: block;
+    color: #757575;
+    padding-bottom: 15px;
+}
+
+.container {
+    margin: 0 auto;
+    width: 400px;
+}
+
+.url-color,
+.url-color:link,
+.url-color:visited,
+.url-color:hover,
+.url-color:active {
+    color: #e1001a;
+    text-decoration: none;
+}
+
+.btn-primary {
+    color: #FFFFFF;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    background-color: #e1001a;
+    background-image: linear-gradient(to bottom, #ff4d4d, #e1001a);
+    background-repeat: repeat-x;
+    border: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.btn-primary:hover {
+    transform: scale(1.02);
+    background-color: #c20017;
+}
+
+.btn-xlarge {
+    padding: 18px 28px;
+    font-size: 22px;
+    line-height: normal;
+    border-radius: 8px;
+}
+
+.btn-sharp {
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 480px) {
+    .form-signin {
+        width: 90% !important;
+    }
+
+    .btn {
+        font-size: 16px;
+    }
+}
+
