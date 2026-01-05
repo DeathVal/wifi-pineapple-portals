@@ -34,4 +34,24 @@ These portals are intended for:
 ```bash
 git clone https://github.com/DeathVal/wifi-pineapple-portals.git
 
+```
+2) Go to the portals folder
+cd wifi-pineapple-portals/portals/
+
+3) Copy a portal to your Pineapple (Tetra / Mark VII)
+scp -r airport-portal root@172.16.42.1:/root/portals/
+
+4) (Nano) Copy to SD card instead
+scp -r airport-portal root@172.16.42.1:/sd/portals/
+
+
+ Then in Pineapple Web UI:
+Modules → Evil Portal → Start → Activate portal
+
+ Note about password
+
+When SCP asks for password:
+use your Pineapple root password,
+
+
 
