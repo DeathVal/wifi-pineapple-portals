@@ -40,7 +40,7 @@ git clone https://github.com/DeathVal/wifi-pineapple-portals.git
 cd wifi-pineapple-portals/portals/
 ```
 
-4) Copy a portal to your Pineapple (Tetra / Mark VII)
+4) Copy a portal to your Pineapple (Mark VII)
 ```bash
 scp -r airport-portal root@172.16.42.1:/root/portals/
 ```
@@ -57,5 +57,10 @@ Modules → Evil Portal → Start → Activate portal
 When SCP asks for password:
 use your Pineapple root password,
 
+
+Screenshots
+
+<img width="1545" height="794" alt="Screenshot 2026-01-06 122638" src="https://github.com/user-attachments/assets/5efa26d7-0b53-4b95-8ec9-943cd9f859f9" />
+<img width="550" height="1230" alt="Screenshot 2026-01-06 122727" src="https://github.com/user-attachments/assets/77ccde1b-f836-4412-ada6-3dc486d452ec" />
 
 
